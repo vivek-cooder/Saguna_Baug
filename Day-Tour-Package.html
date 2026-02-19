@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head><title>Saguna - Day Tour</title>
+ <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<link rel="stylesheet" href="css/Day-tour.css" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dynalight&family=Whisper&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carattere&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+      <h1 class="headline">नमस्कार 🙏🏻,WELCOME TO SAGUNA BAUG</h1>
+  <nav  class="navbar navbar-expand-lg" style="position:fixed; z-index:2; align-content:center">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="https://sagunabaug.com/wp-content/uploads/2024/07/logo.svg" alt="saguna logo"/></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="menu">
+        <li class="has-submenu">
+          <a class="nav-link" aria-current="page" href="Index.html">Home</a>
+        </li>
+        </ul>
+        <ul class="menu">
+        <li class="has-submenu">
+          <a class="nav-link" href="Day-Tour-Package.html">Day Tour Package &#x2335;</a>
+          <ul class="submenu">
+            <li><a class="dropdown-list" href="Day-Picnic-Package.html">Day Picnic Package</a></li>
+            <li><a class="dropdown-list" href="Half-day-package.html">Half Day Package</a></li>
+            <li><a class="dropdown-list" href="Only-lunch.html">Only Lunch</a></li>
+            <li><a class="dropdown-list" href="Only-Breckfast.html">Only Breckfast</a></li>
+            <li><a class="dropdown-list" href="Pre-Wedding-Shoot.html">Pre-Wedding Shoot</a></li>
+          </ul>
+        </li>
+        </ul>
+        <ul class="menu">
+        <li class="has-submenu">
+          <a class="nav-link" href="Day-Tour-Package.html">Stay Package &#x2335;</a>
+          <ul class="submenu">
+            <li><a class="dropdown-list" href="Premium-pond-house.html">Premium Pond House</a></li>
+            <li><a class="dropdown-list" href="Classic-Pond_house.html">Classic Pond House</a></li>
+            <li><a class="dropdown-list" href="Mud-house.html">Mud House</a></li>
+            <li><a class="dropdown-list" href="Row-house.html">Raw House</a></li>
+            <li><a class="dropdown-list" href="Cottage.html">Cottage</a></li>
+            <li><a class="dropdown-list" href="Family-room.html">Family Room</a></li>
+            <li><a class="dropdown-list" href="Tents.html">Tents (Nov - Feb Only)</a></li>
+          </ul>
+        </li>
+        </ul>
+        <ul class="menu">
+        <li class="has-submenu">
+          <a class="nav-link" href="Day-Tour-Package.html">More &#x2335;</a>
+          <ul class="submenu">
+            <li><a class="dropdown-list" href="Things-to-do.html">Things-To-Do/Activites</a></li>
+            <li><a class="dropdown-list" href="Aboutus.html">About Us</a></li>
+            <li><a class="dropdown-list" href="Contactus.html">Contact Us</a></li>
+            <li><a class="dropdown-list" href="Event.html">Event/Corporate-Booking</a></li>
+            <li><a class="dropdown-list" href="Outlet.html">Our Outlets</a></li>
+          </ul>
+        </li>
+        </ul>
+      </ul>
+      <span class="navbar-text">
+       <button class="farm-btn" type="button"><a class="nav-link" style="color:white" href="Product.html">Farm Products</a></button>
+      </span>
+      <span class="vl"></span>
+      <span class="nav_img">
+        <img src="images/search.png" class="search_icon" alt="search"/>    
+        <img src="images/user.png" class="user_icon" alt="user"/>
+        <img src="images/cart.png" class="cart_icon" alt="cart"/>
+      </span>
+    </div>
+  </div>
+  </nav>
+  <div>
+    <img src="https://sagunabaug.com/wp-content/plugins/sagunabaug//assets/images/booking-banner.svg" alt="saguna-day-tour" class="immerse">
+  </div>
+  <div class="container">
+    <div class="person">
+    <img src="https://sagunabaug.com/wp-content/plugins/sagunabaug//assets/images/guest.svg" alt="guest" class="guest">
+    <p class="guest-txt">Guests</p>
+    <p class="person">2 Persons <span class="adult">(2 Adult, 0 Child, )</span><span class="arrow">&#8964;</span></p>
+    <p style="border-bottom: 1px solid #000000;margin-bottom: 20px;width:50vh"></p>
+    </div>
+    <div class="date-div">
+        <img src="https://sagunabaug.com/wp-content/plugins/sagunabaug//assets/images/checkin.svg" alt="door" class="door">
+        <p class="guest-txt">Visit Date</p>
+        <p class="person"><span id="date-display" style="font-size: larger; font-weight:bold"></span><span class="adult">(2 Adult, 0 Child, )</span><span class="arrow">&#8964;</span></p>
+        <p style="border-bottom: 1px solid #000000;margin-bottom: 20px;width:50vh"></p>
+    </div>
+    <div><button class="book-btn">Book Now</button></div>
+  </div>
+  <div>
+  <p><span id="date-display"></span></p>
+  </div>
+  <footer>
+    <img src="images/saguna-footer.png" alt="footer" class="saguna-footer">
+  </footer>
+</body>
+</html> 
