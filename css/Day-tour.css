@@ -1,0 +1,79 @@
+*{margin:0;font-family:arial}
+.headline {background-color:#9AC559; font-size:20px; color:white; text-align:center; margin-bottom: 0px;}
+nav {display:flex;background-color:white; border-radius:50px;width:85%;margin-left:10%; position:fixed; z-index:1; height:5.4em; margin-top:20px;box-shadow:1px 3px 20px #000000; align-content: center;}
+nav img{width:130px; margin-left:40px}
+.nav_txt {font-weight:bold;  padding-left:2em; margin-top:2.2em; color:#666666}
+.nav_img{display:flex}
+.nav-link:hover {color:#6ab978}
+.nav-link {display: inline-block;position: relative;}
+.nav-link::after {content: '';position: absolute;width: 100%;transform: scaleX(0);height: 2px;bottom: 0;left: 0;background-color: #6ab978;transition: transform 0.25s ease-out;}
+.nav-link:hover::after {transform: scaleX(1)}
+.nav-link::after {transform-origin: bottom center;}
+.nav-link:hover::after {transform-origin: bottom center;}
+.menu, .submenu {list-style-type: none;margin: 0;padding: 0;}
+.menu {display: flex;background-color: white;}
+.menu li a {display: block;padding: 15px 20px;color: gray;text-decoration: none;}
+.menu li a:hover {background-color: #ffffff;color:#3e8e41}
+.submenu {display: none;position: absolute;background-color: #ffffff;border:7px solid rgb(255, 255, 255);min-width: 160px;z-index: 1;color: gray;}
+.submenu li a {padding: 12px 16px;color: gray;font-weight:bold;}
+.submenu li a:hover {background-color: #6ab978; color:#ffffff}
+.has-submenu:hover .submenu {display: block;}
+.farm-btn {color:#FFFFFF; border:none;background-color:#6ab978; padding:0.6em 1em; margin-top:0.2em; margin-left:4em; font-size:1em; border-radius:10px; font-weight:bold}
+.vd{width:100%; display: flex; display:inline-block }
+.vl{border-right:1px solid gray; height:3.6em; margin-top:0.9em; margin-left:1em}
+.search_icon{background-color:#6ab978; height:2em; width:2em; border-radius:70px}
+.cart_icon{background-color:#6ab978; height:2em; width:2em; border-radius:70px}
+.user_icon{background-color:#6ab978; height:2em; width:2em; border-radius:70px}
+
+.immerse{width:100%; position:absolute;z-index:-4}
+.container{display: flex;justify-content:space-between; border-radius: 20px; width:65%; background-color: white;box-shadow: 10px 10px 10px #c2c2c2; margin-top:60vh; height:20vh}
+
+.person{flex-direction: column; padding-top:2vh;margin-bottom:0px;}
+.guest{position:absolute;}
+.date-div{padding-top: 2vh;}
+.door{position:absolute}
+.guest-txt{margin-left: 20px;}
+.type-txt{margin-left: 20px;}
+hr{width:50vh; background-color:black}
+.type{flex-direction: column; padding-top:2.3vh;margin-bottom:0px;}
+.adult{color:#999999}
+.arrow{float:right}
+.book-btn{background-color:#6AB978; border:none; height:9vh; width:20vh; border-radius: 10px; color:white;display:block; margin-top:5vh;box-shadow:1px 1px 10px #6AB978;font-weight:bold}
+.saguna-footer{width:100%}
+.stay-package{position: absolute; z-index: 1;padding-top: 200px;margin-left: 27%; font-size: 68px; font-family: rubik; font-weight: 750;}
+.immerse{margin-top: -48px;}
+.stay-info{position: absolute; z-index: 1;padding-top: 300px;margin-left: 29%; font-size: 24px; font-family: rubik; font-weight: 750;color:#797979}
+.header-pattern{z-index: 1; position: absolute; margin-top: 13rem; margin-left: 90rem;}
+.header-underline{position: absolute; z-index: 1; margin-top: 17rem; margin-left: 76rem;}
+.booking-info{width:65%;margin: auto;}
+.house-img{width:200px;height:200px ;border-radius: 20px;object-fit: fill; padding: 10px;}
+.banner{border: 1px solid rgb(114, 114, 114); width:56%; display: flex; flex-direction: row; border-radius: 20px;}
+.banner-font{flex-direction: column; margin-top: 50px;}
+.banner-font h2{font-weight: bold; font-size: 20px; margin-left: 10px;}
+.hotel-rating{width:30%; margin-left: 10px;}
+.hotel-info{color:#999999; font-size: 12px; width:60%;margin-left:10px; margin-top:15px}
+.callender-txt{font-size: 24px;font-weight: bold; }
+.familly-room{color:#3182C1;font-style: italic;}
+.available-label{border: 1px solid rgb(114, 114, 114);width:18%;height:10vh;border-radius: 20px;margin-left: 60px;}
+.available-label ul {margin: 0;padding-left: 0;}
+.ul-available{list-style-position: inside;margin: 0 10px;border-bottom: 1px solid black;padding-bottom: 5px}
+.ul-available::marker{color: #9AC559;}
+.ul-special{list-style-position: inside;margin: 0 10px;border-bottom: 1px solid black;padding-bottom: 5px}
+.ul-special::marker{color:#3182C1}
+.ul-booked{list-style-position: inside;margin: 0 10px;padding-bottom: 5px;}
+.ul-booked::marker{color: #FE5353;}
+.price-details-conintainer{float: right ;width:40%; margin-left: 10%; margin-top: -300px;}
+.price-details{Background-color:white; border: 1px solid black; border-radius: 15px;}
+.price-details h1 {font-size: 20px; color: #333; padding: 10px;} 
+.price-details-img{width:100%}
+
+
+
+
+
+  .rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}

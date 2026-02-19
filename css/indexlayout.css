@@ -1,0 +1,74 @@
+*{margin:0;font-family:arial}
+.headline {background-color:#9AC559; font-size:20px; color:white; text-align:center; margin-bottom: 0px;}
+nav {display:flex;background-color:white; border-radius:50px;width:85%;margin-left:10%; position:fixed; z-index:1; height:5.4em; margin-top:20px;box-shadow:1px 3px 20px #000000; align-content: center;}
+nav img{width:130px; margin-left:40px}
+.nav_txt {font-weight:bold;  padding-left:2em; margin-top:2.2em; color:#666666}
+.nav_img{display:flex}
+.nav-link:hover {color:#6ab978}
+.nav-link {display: inline-block;position: relative;}
+.nav-link::after {content: '';position: absolute;width: 100%;transform: scaleX(0);height: 2px;bottom: 0;left: 0;background-color: #6ab978;transition: transform 0.25s ease-out;}
+.nav-link:hover::after {transform: scaleX(1)}
+.nav-link::after {transform-origin: bottom center;}
+.nav-link:hover::after {transform-origin: bottom center;}
+.menu, .submenu {list-style-type: none;margin: 0;padding: 0;}
+.menu {display: flex;background-color: white;}
+.menu li a {display: block;padding: 15px 20px;color: gray;text-decoration: none;}
+.menu li a:hover {background-color: #ffffff;color:#3e8e41}
+.submenu {display: none;position: absolute;background-color: #ffffff;border:7px solid rgb(255, 255, 255);min-width: 160px;z-index: 1;color: gray;}
+.submenu li a {padding: 12px 16px;color: gray;font-weight:bold;}
+.submenu li a:hover {background-color: #6ab978; color:#ffffff}
+.has-submenu:hover .submenu {display: block;}
+.farm-btn {color:#FFFFFF; border:none;background-color:#6ab978; padding:0.6em 1em; margin-top:0.2em; margin-left:4em; font-size:1em; border-radius:10px; font-weight:bold}
+.vd{width:100%; display: flex; display:inline-block }
+.vl{border-right:1px solid gray; height:3.6em; margin-top:0.9em; margin-left:1em}
+.search_icon{background-color:#6ab978; height:2em; width:2em; border-radius:70px}
+.cart_icon{background-color:#6ab978; height:2em; width:2em; border-radius:70px}
+.user_icon{background-color:#6ab978; height:2em; width:2em; border-radius:70px}
+.con_bg{width:100%; margin-top:5em; background-color:skyblue}
+.image-container{position:relative; align-items: center;}
+.bg_img{width:100%; display:block; height:auto; flex-shrink:0}
+.since{font-style:arial; position:absolute; bottom:-4.8em; left:6em; color:rgb(0, 0, 0); font-size:2em}
+.yr{font-size:0.8em; color:#6ab978;font-weight: bold; font-style: italic;}
+.since_dis {font-style:arial; position:absolute; bottom:-6.5em; left:6em; color:#333333; font-size:2em; font-weight:bold}
+.dynalight-regular {position:absolute; bottom:-5.6em; left:4em; color:#333333; font-size:3em; font-family:"Dynalight", cursive; font-weight:400 ; }
+.info-box{position:absolute; bottom:-29em; right:20em;width:33%}
+.banner{width:100%}
+.map_icon{width:1.2em; position:absolute; bottom:-31.4em; right:57.5em; color:"#6ab978"}
+.map-txt{color: #7a7a7a; position:absolute; bottom:-32.3em; right:33em;}
+.package {align-content:center; width:100%}
+.saguna-background2{width:100%; position:absolute; z-index: -5;}
+.price{border: 1px solid #DBDBDB;  box-shadow: 5px -1px 10px #DBDBDB; border-radius: 30px; text-align:center; background-color: white;}
+.price-description {list-style:none}
+.price-headline {text-align:left; margin-left: 30px; font-weight: bold;}
+.price-headline-p{color:#999999;text-align:left; margin-left: 30px; font-weight: bold;}
+.price-btn {background-color: #61CE70; height:50px; font-weight: bold; border:none; width:90%; color:white; border-radius:10px}
+.price-contaner {margin-top:30px}
+.price-list{text-align:left; font-weight: bold}
+.price-p{margin-left:30px; width:25em}
+hr{width:90%; margin-left: auto; margin-right: auto;}
+.price-curruncy{font-size:0.7em}
+.price-dis{ color:#999999; font-size:0.7em}
+.price-date{font-weight: bold;}
+.price-last {border: 1px solid #DBDBDB;  box-shadow: 5px -1px 10px #DBDBDB; border-radius: 30px; text-align:center; background-color:#6AB978; color:white}
+.price-headline-last{color:white; text-align:left; margin-left: 30px; font-weight: bold;}
+.price-headline-p-last{color:white;text-align:left; margin-left: 30px; font-weight: bold;}
+.price-dis-last{color:white; font-size:0.7em}
+.price-btn-last{background-color:white; height:50px; font-weight: bold; border:none; width:90%; color:#6AB978; border-radius:10px}
+.mlakhand-img{width:7em;  margin-left: 70%;}
+.price-p-last{margin-left:30px}
+.home-img{width:15em;  margin-left: 39%;}
+.married-img{width:7em;  margin-left: 70%;}
+.farm-img{width:15em;  margin-left: 39%}
+.price-num{font-size:1.7em}
+.explore-img{width:100%; margin-top:10em}
+.explore-btn{background-color:#F1F1F1; height:50px; font-weight:bold ; border:none;border-radius:10px; font-style:italic; margin-left:3em;}
+.explore-btn:hover{background-color: #6ab978; color:white;transition:0.5s}
+.explore-container{display: flex; justify-content:center; align-items:center;}
+.explore-info{width:70%;height:60vh; margin: auto}
+.explore-home-img{width:45%;float:right; margin-top:7vh; border-radius: 20px;}
+.expolre-h1{padding-top:15vh;font-weight:400}
+.explore-dis{color:#666666; font-style:italic; font-weight: bold;}
+.explore-p{color:#666666; font-size:22px;font-weight:400;width:40%;text-transform: capitalize; margin-top:15px}
+.explore-btn-know{border:#6AB978 solid 1px;background-color:white; color:#6AB978;height:6vh; width:20vh; border-radius:10px}
+.day{width:100%}
+footer img{width:100%}
